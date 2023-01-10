@@ -92,13 +92,10 @@ extension ViewController : UIPickerViewDelegate, UIPickerViewDataSource
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         switch pickerView.tag {
         case 1:
-            print("\(countries.count)")
             return countries.count
         case 2:
-            print("\(colors.count)")
             return colors.count
         case 3:
-            print("\(sports.count)")
             return sports.count
         default:
             return 1
