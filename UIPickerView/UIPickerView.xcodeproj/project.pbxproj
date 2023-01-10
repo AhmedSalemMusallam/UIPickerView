@@ -56,15 +56,47 @@
 		5BD77AF7296D4EA000E09D79 /* UIPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				5BD77AF8296D4EA000E09D79 /* AppDelegate.swift */,
-				5BD77AFA296D4EA000E09D79 /* SceneDelegate.swift */,
-				5BD77AFC296D4EA000E09D79 /* ViewController.swift */,
-				5BD77AFE296D4EA000E09D79 /* Main.storyboard */,
-				5BD77B01296D4EA100E09D79 /* Assets.xcassets */,
-				5BD77B03296D4EA100E09D79 /* LaunchScreen.storyboard */,
+				5BD77B0F296D4F7500E09D79 /* Controllers */,
+				5BD77B0E296D4F4500E09D79 /* View */,
+				5BD77B0D296D4F3600E09D79 /* Resources */,
+				5BD77B0C296D4F3000E09D79 /* Application */,
 				5BD77B06296D4EA100E09D79 /* Info.plist */,
 			);
 			path = UIPickerView;
+			sourceTree = "<group>";
+		};
+		5BD77B0C296D4F3000E09D79 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5BD77AFA296D4EA000E09D79 /* SceneDelegate.swift */,
+				5BD77AF8296D4EA000E09D79 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5BD77B0D296D4F3600E09D79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BD77B01296D4EA100E09D79 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BD77B0E296D4F4500E09D79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BD77B03296D4EA100E09D79 /* LaunchScreen.storyboard */,
+				5BD77AFE296D4EA000E09D79 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BD77B0F296D4F7500E09D79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BD77AFC296D4EA000E09D79 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
